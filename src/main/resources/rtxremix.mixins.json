@@ -1,0 +1,26 @@
+{
+	"required": true,
+	"package": "rtxremix.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"FrontendGpuSurfaceMixin",
+		"ItemFeatureRendererMixin",
+		"LevelRendererMixin",
+		"ModelFeatureRendererMixin",
+		"PreferredGraphicsApiMixin",
+		"QuadParticleFeatureRendererMixin",
+		"RenderSectionMixin",
+		"RenderSectionRegionMixin",
+		"RenderSetupAccessor",
+		"RenderTypeAccessor",
+		"SectionCompilerMixin",
+		"SpriteContentsAccessor",
+		"TextureAtlasMixin",
+		"TextureAtlasSpriteAccessor",
+		"TextureBindingAccessor",
+		"VulkanGpuSurfaceAccessor"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
